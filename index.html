@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+
+    <!-- Import Google Fonts Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Import Flowbite CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="./tailwind.config.js"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+  <body class="font-primary bg-primary">
+    <div class="container">
+      <section>
+        <nav class="bg-primary border-gray-200 dark:bg-gray-900 font-primary">
+          <div
+            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+          >
+            <span
+              class="self-center text-2xl font-bold whitespace-nowrap text-white"
+              >IdzharPortfolio</span
+            >
+            <button
+              data-collapse-toggle="navbar-default"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-default"
+              aria-expanded="false"
+            >
+              <span class="sr-only">#</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+              <ul
+                class="font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="font-bold text-white block py-2 px-3 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                    >Home</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="#"
+                    class="font-bold text-white block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >Service</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-bold text-white block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >Portofolio</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-bold text-white block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="font-bold block text-white py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- hero -->
+      <section>
+        <div class="bg-primary h-screen">
+          <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="p-10 mt-20 ml-20 content-center">
+              <p
+                class="p-2 md:px-10 ml-5 rounded-full text-white text-md bg-green-400 font-bold w-40"
+              >
+                welcome
+              </p>
+              <p class="font-bold text-white text-7xl mt-5 ms-4">
+                Muhammad Idzhar
+              </p>
+              <p class="text-white text-sm ms-4">
+                Hello, My name is Muhammad Idzhar, nice to meet you. i would
+                like to welcome you with my personal portofolio
+              </p>
+            </div>
+            <div class="md:p-0">
+              <div class="relative flex justify-end mt-10">
+                <!-- Gambar Ijar -->
+                <img
+                  src="./src/ijar.png"
+                  class="relative w- h- z-10 ms-[40px]"
+                  alt="Ijar"
+                />
+
+                <!-- Gambar Ellipse -->
+                <img
+                  src="./src/Ellipse 1.png"
+                  class="absolute top-0 right-0 w-[440px] h-full z-0"
+                  alt="Ellipse"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- service -->
+      <section class="p-56">
+        <div class="bg-[#1C212A] rounded-xl">
+          <div class="text-white p-5 grid text-center justify-center">
+            <p class="font-bold text-4xl">My Service</p>
+            <p class="mt-5">
+              "Tidak hanya kerja, tetapi membuat karya yang luar biasa “
+            </p>
+            <hr class="mt-5 w-[15em] md:w-[30em]" />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 text-white p-3">
+            <div class="text-center p-2">
+              <img src="./src/Group 20.png" class="mx-auto mb-4" alt="" />
+              <h1>Video Editor & Videographer</h1>
+            </div>
+            <div class="text-center p-2">
+              <img src="./src/Group 21.png" class="mx-auto mb-4" alt="" />
+              <h1>Design Graphic</h1>
+            </div>
+            <div class="text-center p-2">
+              <img src="./src/Group 22.png" class="mx-auto mb-4" alt="" />
+              <h1>Frontend Web Developer</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- start portofolio -->
+      <section class="bg-primary">
+        <div>
+          <div class="text-white">
+            <p class="text-center font-bold text-4xl">My Portofolio</p>
+          </div>
+          <div
+            class="flex text-center justify-center space-x-4 mt-6 text-white text-2xl"
+          >
+            <div class="me-5 font-bold text-xl">
+              <p>All</p>
+            </div>
+            <div class="me-5 font-bold text-xl">
+              <p>Video Editor</p>
+            </div>
+            <div class="me-5 font-bold text-xl">
+              <p>Design Graphic</p>
+            </div>
+            <div class="me-5 font-bold text-xl">
+              <p>Frontend Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-white grid grid-cols-2 md:grid-cols-4 gap-4 grid-rows-2 mt-10 max-w-screen-lg mx-auto"
+        >
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              src="./src/foto3.jpg"
+              class="rounded-xl w-full h-auto ms-2 me-2"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="https://flowbite.com/docs/components/card/#horizontal-card"
+            class="text-white text-center mt-5 font-bold"
+          >
+            View More</a
+          >
+        </div>
+      </section>
+      <!-- about -->
+      <section class="bg-primary">
+        <div class="grid grid-cols-1 md:grid-cols-2 me-7">
+          <div>
+            <img src="./src/ijar2.png" class="h-[40em] w-70 p-16" alt="" />
+          </div>
+          <div class="mt-[100px] p-16 text-white text-4xl item-end">
+            <p class="font-bold ms-9">About</p>
+            <p class="text-sm p-9">
+              Saya bersemangat untuk membantu klien menghasilkan konten
+              berkualitas tinggi dalam berbagai bentuk media. Saya dapat
+              mengambil foto dan video yang menakjubkan, membuat desain grafis
+              menarik, dan membangun situs web dari awal hingga akhir. Saya
+              selalu berusaha memberikan layanan terbaik kepada klien.
+            </p>
+            <div>
+              <img
+                src="./src/Group 19.png"
+                class="h-50 w-64 ms-[38px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- for inquiries -->
+      <section class="p-56">
+        <div class="bg-[#CDF86A] rounded-xl">
+          <div class="text-black p-9 grid text-center justify-center">
+            <p class="font-bold text-4xl">For Business Inquiries?</p>
+            <div>
+              <button
+                class="bg-[#96C6F7] rounded p-2 font-bold text-white mt-5"
+              >
+                Contact
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <section class="bg-[#000000]">
+        <div class="grid grid-cols-2 md:grid-cols-2 flex">
+          <div class="flex flex-col items-start">
+            <h1 class="text-white font-bold text-4xl mt-5 ms-[100px]">IdzharPortfolio</h1>
+            <img
+              src="./src/Group 19.png"
+              class="w-40 h-30 mt-2 ms-[100px]"
+              alt="Group 19 Image"
+            />
+          </div>
+          <div class="text-white text-xl gap-5 flex mx-auto p-9">
+            <div>
+              <p>Videography</p>
+            </div>
+            <div>
+              <p>Design Graphics</p>
+            </div>
+            <div>
+              <p>Frontend Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="grid text-white text-xl justify-items-end me-[100px] opacity-85">
+            @2024 Muhammad Idzhar
+          </p>
+        </div>
+      </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    </div>
+  </body>
+</html>
